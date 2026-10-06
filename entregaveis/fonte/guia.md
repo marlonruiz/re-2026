@@ -146,17 +146,33 @@ Com a conta liberada, o link também sai direto do app:
 
 ### 2.3 · Amazon Associados
 
-**Passo 1.** Entre em **associados.amazon.com.br** e toque em **Inscreva-se**. Use sua conta da Amazon (ou crie uma).
+**Passo 1.** No navegador do celular, entre em **associados.amazon.com.br** e toque em **Inscreva-se**. Entre com sua conta da Amazon (ou crie uma).
 
-<div class="print">📱 COLE AQUI O PRINT · página de inscrição do Amazon Associados</div>
+<div class="shot"><img src="PRINT:amazon-inicio.png"></div>
 
-**Passo 2.** Preencha seus dados com CPF.
+**Passo 2.** Preencha seus dados com CPF e endereço.
 
 **Passo 3.** A Amazon pede um **site**, mas não precisa ter um. No campo de site, coloque o link do seu **perfil público** do Instagram ou do Facebook (por exemplo, instagram.com/seuperfil). Link de grupo de WhatsApp não serve, porque não é público.
 
-**Passo 4.** Escolha seu **ID de associada** (um apelido, por exemplo: achadinhosdaana).
+**Passo 4.** Na tela **Perfil**, preencha:
 
-**Passo 5.** Cadastre sua conta no banco para receber.
+- **ID de Associado:** um apelido curto, sem espaço nem acento. Ex.: *achadinhosdaana*. A Amazon coloca um "-20" no final sozinha.
+- **Conte-nos mais sobre o conteúdo que você cria:** adapte este texto para a sua realidade:
+
+<div class="msg">Compartilho achadinhos de casa, cozinha, organização, beleza e presentes no meu perfil do Instagram e com amigas e conhecidos. Meu público são principalmente mulheres de 30 a 55 anos que buscam produtos úteis, bem avaliados e com bom preço. Pretendo indicar produtos de casa e cozinha, organização, beleza, moda e itens infantis, principalmente em datas como Black Friday e Natal.</div>
+
+- **Qual opção melhor descreve seu conteúdo:** marque **Site de ofertas e cupons**.
+
+<div class="shot"><img src="PRINT:amazon-perfil.png"></div>
+
+**Passo 5.** Nas próximas perguntas:
+
+- **Tópicos:** marque Casa, Cozinha, Beleza, Moda e Bebês/Infantil.
+- **Como gera tráfego:** marque **Redes sociais**.
+- **Visitantes por mês:** escolha a faixa menor (é o certo para quem está começando).
+- **Como cria links:** marque a opção de links de texto ou criados manualmente.
+
+**Passo 6.** Por último, confirme que não é robô, aceite os termos e cadastre sua conta no banco e seus dados de imposto para receber.
 
 #### Como gerar seu link na Amazon
 
