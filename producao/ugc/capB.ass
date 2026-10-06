@@ -1,0 +1,32 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: C,Poppins,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,6,2,2,60,60,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.10,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Pouca gente sabe
+Dialogue: 0,0:00:01.10,0:00:01.90,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}disso
+Dialogue: 0,0:00:01.90,0:00:02.58,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}mas a Shopee
+Dialogue: 0,0:00:02.58,0:00:03.52,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}paga para quem
+Dialogue: 0,0:00:03.52,0:00:04.98,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}indica produto
+Dialogue: 0,0:00:05.06,0:00:05.62,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}E o Mercado
+Dialogue: 0,0:00:05.62,0:00:06.20,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Livre
+Dialogue: 0,0:00:06.20,0:00:07.68,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Amazon também
+Dialogue: 0,0:00:07.68,0:00:08.98,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Não é revenda
+Dialogue: 0,0:00:08.98,0:00:09.66,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Você não compra
+Dialogue: 0,0:00:09.66,0:00:10.78,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}nada antes
+Dialogue: 0,0:00:10.78,0:00:12.20,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}não entrega nada
+Dialogue: 0,0:00:12.20,0:00:13.16,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Você só indica
+Dialogue: 0,0:00:13.16,0:00:13.54,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}o que já
+Dialogue: 0,0:00:13.54,0:00:14.16,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}gosta para as
+Dialogue: 0,0:00:14.16,0:00:15.62,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}amigas e recebe
+Dialogue: 0,0:00:15.62,0:00:17.06,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}por cada compra
+Dialogue: 0,0:00:17.06,0:00:17.70,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Tem um guia
+Dialogue: 0,0:00:17.70,0:00:18.92,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}bem simples feito
+Dialogue: 0,0:00:18.92,0:00:19.70,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}para quem nunca
+Dialogue: 0,0:00:19.70,0:00:20.96,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}fez isso
+Dialogue: 0,0:00:20.96,0:00:22.16,C,,0,0,0,,{\fscx88\fscy88\t(0,90,\fscx100\fscy100)}Toca aqui embaixo

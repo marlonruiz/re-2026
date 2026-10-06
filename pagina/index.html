@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clube de Achadinhos</title>
+<link rel="canonical" href="https://clubedeachadinhos.online/">
+<meta property="og:title" content="Clube de Achadinhos">
+<meta property="og:description" content="Black Friday e Natal chegando: aprenda a indicar achadinhos e receber por cada compra, pelo celular.">
+<meta property="og:url" content="https://clubedeachadinhos.online/">
+<meta property="og:type" content="website">
+<meta name="description" content="Indique os achadinhos que você já ama e receba por cada compra, pelo celular.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+
+<!-- ============ CONFIGURAÇÃO ============ -->
+<script>
+  window.CONFIG = {
+    // Link do checkout da Cakto
+    checkoutUrl: "https://pay.cakto.com.br/SEU-LINK-AQUI",
+    // Segundo do vídeo em que o botão aparece (momento em que a VSL fala o preço)
+    delaySeconds: 82,
+    // Contagem da faixa: até a Black Friday (data real). Deixe "" para esconder a contagem.
+    deadline: "",
+  };
+</script>
+
+<!-- Pixel da Meta: cole aqui o código base do seu pixel -->
+
+<style>
+  :root{
+    --bg:#FFF8F1; --ink:#2A1E1A; --muted:#6B5A52;
+    --brand:#E8572A; --brand-dark:#C4421A; --faixa:#2A1E1A; --faixa-ink:#FFF8F1;
+    --ok:#1F8A4C;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font-family:Poppins,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .faixa{position:sticky;top:0;z-index:10;background:#D7261E;color:#fff;
+    text-align:center;padding:8px 12px;font-size:clamp(14px,4.2vw,17px);font-weight:600;line-height:1.3;box-shadow:0 3px 10px rgba(0,0,0,.18)}
+  .faixa strong{color:#FFE14D;font-weight:800}
+  .faixa .tempo{font-variant-numeric:tabular-nums;font-weight:700;color:#FFC94D}
+  main{max-width:520px;margin:0 auto;padding:6px 8px 24px}
+  h1{font-size:clamp(20px,6vw,24px);line-height:1.2;font-weight:800;text-align:center;margin:2px 4px 8px;letter-spacing:-.01em}
+  h1 em{font-style:normal;color:var(--brand)}
+  .video{position:relative;width:min(100%, calc((100svh - 205px) * 9 / 16));margin:0 auto;aspect-ratio:9/16;border-radius:14px;overflow:hidden;
+    background:#1b1412;box-shadow:0 10px 30px rgba(42,30,26,.18)}
+  .video iframe,.video video{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .video video{object-fit:cover;cursor:pointer;z-index:1}
+  .ov{position:absolute;inset:0;z-index:3;display:grid;place-items:center;cursor:pointer;background:rgba(0,0,0,.72);-webkit-transform:translateZ(0);transform:translateZ(0)}
+  .ov.off{display:none}
+  .somb{border:0;cursor:pointer;
+    background:rgba(232,87,42,.94);color:#fff;font:500 17px/1.35 Poppins,sans-serif;padding:16px 22px;border-radius:16px;
+    box-shadow:0 8px 28px rgba(0,0,0,.35);animation:pulsa 1.6s ease-in-out infinite;text-align:center}
+  .somb strong{font-weight:800;font-size:22px} .somb .ico{display:block;font-size:34px;line-height:1.1;margin-bottom:4px}
+  .pausa{position:absolute;inset:0;z-index:2;display:none;place-items:center;color:#fff;font-size:64px;background:rgba(0,0,0,.35);pointer-events:none}
+  .pausa.on{display:grid}
+  .prog{position:absolute;z-index:4;left:0;right:0;bottom:0;height:5px;background:rgba(255,255,255,.18);display:none}
+  .prog.on{display:block}
+  .prog i{display:block;height:100%;width:0;background:var(--brand)}
+  .video .ph{position:absolute;inset:0;display:grid;place-items:center;color:#cbb9ae;font-size:14px;text-align:center;padding:24px}
+  .cta{display:flex;justify-content:center;margin-top:10px;visibility:hidden;opacity:0}
+  .cta.show{visibility:visible;opacity:1;animation:entra .5s ease-out}
+  .cta .in{width:100%;max-width:480px;display:flex;flex-direction:column;gap:6px}
+  .btn{display:block;width:100%;text-align:center;text-decoration:none;
+    background:var(--brand);color:#fff;font-weight:800;font-size:20px;line-height:1.2;
+    padding:16px 18px;border-radius:14px;box-shadow:0 5px 0 var(--brand-dark);
+    animation:pulsa 1.8s ease-in-out infinite}
+  .btn small{display:block;font-weight:500;font-size:14px;opacity:.95;margin-top:3px}
+  .btn:active{transform:translateY(3px);box-shadow:0 3px 0 var(--brand-dark)}
+  .selos{display:flex;gap:10px;justify-content:center;white-space:nowrap;color:var(--muted);font-size:12.5px}
+  .selos span::before{content:"✓ ";color:var(--ok);font-weight:700}
+  footer{text-align:center;color:#9c8a80;font-size:11px;line-height:1.5;padding:8px 16px 28px;max-width:440px;margin:0 auto}
+  @keyframes pulsa{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
+  @keyframes entra{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.btn,.cta.show{animation:none}}
+</style>
+</head>
+<body>
+
+<div class="faixa" id="faixa">
+  <span id="faixaResto">⚠️ <strong>Esta oportunidade</strong> pode sair do ar a qualquer momento</span>
+</div>
+
+<main>
+  <h1>Seus achadinhos podem virar <em>um dinheirinho a mais</em></h1>
+
+  <div class="video" id="vbox">
+    <video id="vsl" src="vsl.mp4" poster="vsl-capa.jpg" playsinline webkit-playsinline muted autoplay loop preload="auto"></video>
+    <div class="ov" id="som"><button class="somb" type="button"><span class="ico">🔊</span>Seu vídeo já começou<br><strong>Toque para ouvir</strong></button></div>
+    <div class="pausa" id="pausa">▶</div>
+    <div class="prog"><i id="prog"></i></div>
+  </div>
+  <div class="cta" id="cta"><div class="in">
+  <a class="btn" id="btn" href="#">
+    QUERO ENTRAR NO CLUBE
+    <small>Aproveite enquanto não sai do ar</small>
+  </a>
+  <div class="selos">
+    <span>Garantia de 7 dias</span>
+    <span>Pagamento seguro</span>
+  </div>
+  </div></div>
+</main>
+
+<footer>
+  Apresentadora criada com inteligência artificial.<br>
+  Os ganhos dependem das compras feitas a partir das suas indicações. Não há garantia de valor.<br>
+  Este site não é afiliado à Shopee, Mercado Livre ou Amazon.
+</footer>
+
+<script>
+(function(){
+  var C = window.CONFIG;
+
+  // Botão: leva ao checkout repassando UTMs e parâmetros do anúncio
+  var url;
+  try {
+    url = new URL(C.checkoutUrl);
+    new URLSearchParams(location.search).forEach(function(v,k){ if(k !== 'b' && !url.searchParams.has(k)) url.searchParams.set(k,v); });
+    url = url.toString();
+  } catch(e){ url = C.checkoutUrl; }
+  document.getElementById('btn').href = url;
+
+  // Botão aparece depois de X segundos (?b=0 na URL mostra na hora, útil para testar e para remarketing)
+  var cta = document.getElementById('cta');
+  var q = new URLSearchParams(location.search);
+  var delay = q.has('b') ? Number(q.get('b')) : C.delaySeconds;
+  function mostra(){
+    if (cta.classList.contains('show')) return;
+    cta.classList.add('show');
+    // se o botão ficou abaixo da tela, sobe a página só o necessário para ele aparecer
+    setTimeout(function(){ var r = cta.getBoundingClientRect();
+      if (r.bottom > window.innerHeight) window.scrollBy({top: r.bottom - window.innerHeight + 12, behavior: 'smooth'}); }, 350);
+  }
+  if (delay <= 0) mostra();
+  // reserva só para quem nunca toca no vídeo: botão aparece após 3 min na página
+  setTimeout(mostra, 180 * 1000);
+
+  // Player da VSL: começa mudo, toque ativa o som e volta pro início
+  var v = document.getElementById('vsl'), som = document.getElementById('som'),
+      pausa = document.getElementById('pausa'), prog = document.getElementById('prog'), ativado = false;
+  function ativar(){
+    ativado = true; som.classList.add("off"); v.loop = false;
+    document.querySelector('.prog').classList.add('on');
+    v.muted = false; v.currentTime = 0; v.play();
+  }
+  som.addEventListener('click', ativar);
+  v.addEventListener('click', function(){
+    if (!ativado) return ativar();
+    if (v.paused) { v.play(); pausa.classList.remove('on'); } else { v.pause(); pausa.classList.add('on'); }
+  });
+  v.addEventListener('timeupdate', function(){
+    if (ativado && v.duration) prog.style.width = (v.currentTime / v.duration * 100) + '%';
+    if (ativado && v.currentTime >= delay) mostra();
+  });
+  v.addEventListener('ended', function(){ mostra(); pausa.classList.add('on'); });
+  // se o navegador bloquear o autoplay, a capa fica parada com o aviso de toque
+  var p = v.play(); if (p && p.catch) p.catch(function(){});
+
+  // Faixa: contagem até a data real do fim do preço de lançamento
+  var resto = document.getElementById('faixaResto');
+  if (C.deadline) {
+    var fim = new Date(C.deadline + 'T23:59:59-03:00');
+    function tick(){
+      var s = Math.floor((fim - new Date())/1000);
+      if (s <= 0) { resto.innerHTML = '🎄 <strong>Natal chegando</strong> · comece hoje'; return; }
+      var d = Math.floor(s/86400), h = Math.floor(s%86400/3600), m = Math.floor(s%3600/60), x = s%60;
+      var p = function(n){ return String(n).padStart(2,'0'); };
+      resto.innerHTML = '⏳ <strong>Preço de lançamento</strong> termina em <span class="tempo">' +
+        (d > 0 ? d + 'd ' : '') + p(h) + ':' + p(m) + ':' + p(x) + '</span>';
+    }
+    tick(); setInterval(tick, 1000);
+  }
+})();
+</script>
+</body>
+</html>
