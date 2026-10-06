@@ -152,7 +152,7 @@ Com a conta liberada, o link também sai direto do app:
 
 **Passo 2.** Preencha seus dados com CPF.
 
-**Passo 3.** Informe onde vai divulgar: Instagram, Facebook ou grupo de WhatsApp.
+**Passo 3.** A Amazon pede um **site**, mas não precisa ter um. No campo de site, coloque o link do seu **perfil público** do Instagram ou do Facebook (por exemplo, instagram.com/seuperfil). Link de grupo de WhatsApp não serve, porque não é público.
 
 **Passo 4.** Escolha seu **ID de associada** (um apelido, por exemplo: achadinhosdaana).
 
