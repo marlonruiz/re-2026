@@ -27,7 +27,6 @@ E colar o código do pixel da Meta onde está indicado.
 
 ## Pendências
 
-- Prints do cadastro nas lojas para os 7 espaços "COLE AQUI O PRINT" do guia
 - Link do canal do WhatsApp no PDF do upsell
 - Primeiro lote do upsell (achadinhos de outubro)
 

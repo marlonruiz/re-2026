@@ -34,6 +34,7 @@ h3, h4 { break-after: avoid; page-break-after: avoid; }
 .nota { font-size: 8.4pt; color: #8a7468; }
 .shot { text-align: center; margin: 6pt 0 12pt; page-break-inside: avoid; }
 .shot.dupla img { width: 82%; }
+.shot.media img { width: 78%; border-radius: 8pt; }
 .shot img { width: 44%; border-radius: 12pt; border: 1px solid #F1D9CC; box-shadow: 0 4pt 14pt rgba(42,30,26,.18); }
 .capa { break-after: page; page-break-after: always; height: 178mm; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
   background: #180E0A; color: #fff; border-radius: 12pt; padding: 20pt; margin: -2mm -2mm 0; }

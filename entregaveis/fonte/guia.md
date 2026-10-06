@@ -176,9 +176,18 @@ Com a conta liberada, o link também sai direto do app:
 
 #### Como gerar seu link na Amazon
 
-Com o cadastro feito, abra o site da Amazon logada na sua conta. Vai aparecer uma **barra do Associados** no topo das páginas de produto, com o botão **Obter link** ou **Texto**. Copie o link gerado.
+Aqui a Amazon é diferente das outras: **o link de associada só sai pelo computador**. No celular e no app da Amazon essa opção não aparece.
 
-<div class="print">📱 COLE AQUI O PRINT · barra do Associados com o botão de link</div>
+1. No computador, abra **amazon.com.br** logada na mesma conta do Associados.
+2. Abra o produto que quer indicar. No topo da página aparece a faixa **SiteStripe**, que já mostra quanto aquele produto paga de comissão.
+3. Clique em **Obter link**, deixe marcado **Link curto** e clique em **Copiar link de associado**.
+4. Mande o link pelo **WhatsApp Web** ou envie para você mesma, para usar depois no celular.
+
+<div class="shot media"><img src="PRINT:amazon-sitestripe2.png"></div>
+
+<div class="box" markdown="1">
+**Dica:** separe um momento da semana no computador e gere de uma vez os links da Amazon que você vai usar. Mande todos para você mesma no WhatsApp e vá postando ao longo dos dias pelo celular.
+</div>
 
 #### Atenção às regras da Amazon
 
