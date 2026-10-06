@@ -116,17 +116,28 @@ Depois que a conta de afiliada é liberada, o link de comissão sai direto do ap
 
 **Passo 1.** Tenha uma conta no Mercado Livre e no Mercado Pago (são a mesma conta).
 
-**Passo 2.** Procure no Google por **"Programa de Afiliados e Criadores Mercado Livre"** e entre na página oficial do Mercado Livre. Toque em **Quero fazer parte agora**.
+**Passo 2.** No celular, abra **mercadolivre.com.br/l/afiliados-home**. Ele abre a página **Afiliados e Criadores** no app. Toque em **Começar a ganhar**.
 
-<div class="print">📱 COLE AQUI O PRINT · página do Programa de Afiliados e Criadores</div>
+**Passo 3.** Na tela **Programa de afiliados**, marque a caixinha **Eu aceito os Termos e condições** e toque em **Fazer parte**.
 
-**Passo 3.** Entre com sua conta, aceite os termos e preencha o formulário com suas redes sociais.
+<div class="shot"><img src="PRINT:ml-inscricao.png"></div>
 
-**Passo 4.** Espere o **e-mail de confirmação**. O Mercado Livre analisa o cadastro antes de liberar. Enquanto isso, já vá montando sua lista de achadinhos (Módulo 3).
+**Passo 4.** Siga as próximas telas. Se pedir, informe suas redes sociais. Se o cadastro ficar em análise, espere o e-mail de confirmação e, enquanto isso, vá montando sua lista de achadinhos (Módulo 3).
 
-**Passo 5.** Com o cadastro aprovado, entre no painel de afiliados e use o **Gerador de links**: cole o link do produto e gere o seu.
+#### Como gerar seu link no Mercado Livre
 
-<div class="print">📱 COLE AQUI O PRINT · gerador de links do painel</div>
+Com a conta liberada, o link também sai direto do app:
+
+1. Abra o produto no app do Mercado Livre.
+2. Toque no botão azul **Compartilhe e ganhe** (ou no ícone **Afiliados ganhe $**, em cima da foto).
+3. Vai abrir a janela **Compartilhe como afiliado para ganhar dinheiro**.
+4. Toque em **WhatsApp** para mandar direto, ou em **Copiar link**. **Esse já é o seu link.**
+
+<div class="shot dupla"><img src="PRINT:ml-compartilhar.png"></div>
+
+<div class="box" markdown="1">
+**Fique de olho no "Ganhos extras":** alguns produtos mostram uma porcentagem a mais de comissão (por exemplo, "Ganhos extras 20%"). São ótimos para indicar primeiro.
+</div>
 
 #### Quando o Mercado Livre paga
 

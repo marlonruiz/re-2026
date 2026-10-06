@@ -31,7 +31,7 @@ Você não precisa mais perder tempo procurando o que indicar. A gente garimpa e
 **3. Gere o seu link:**
 
 - **Shopee:** abra o link no app da Shopee → toque em **compartilhar** → **Copiar Link**. Esse já é o seu link.
-- **Mercado Livre:** no painel de afiliados → **Gerador de links** → cole o link.
+- **Mercado Livre:** abra o link no app do Mercado Livre → toque em **Compartilhe e ganhe** → **Copiar link**.
 - **Amazon:** abra o produto logada e use a **barra do Associados** → **Obter link**.
 
 **4. Copie o texto pronto**, troque o link pelo seu e poste no status ou no seu grupo.
