@@ -91,16 +91,20 @@ Separe 10 minutos para cada loja, com o celular carregado e estes dados em mãos
 
 #### Como gerar seu link na Shopee
 
-1. Abra o produto no aplicativo da Shopee e toque em **Compartilhar** → **Copiar link**.
-2. Entre no painel do Shopee Afiliados e procure **Link personalizado** (ou **Conversor de links**).
-3. Cole o link do produto e toque em **Obter link**.
-4. Copie o link novo. **Esse é o seu link**, e é ele que você manda para as pessoas.
+Depois que a conta de afiliada é liberada, o link de comissão sai direto do aplicativo:
 
-<div class="print">📱 COLE AQUI O PRINT · gerando o link personalizado</div>
+1. Abra o produto no app da Shopee.
+2. Toque no botão de **compartilhar** (a setinha no canto de cima, à direita).
+3. Vai abrir a janela **Compartilhe para Ganhar Comissão**.
+4. Toque em **WhatsApp** para mandar direto para alguém ou para um grupo, ou em **Copiar Link** para colar onde quiser. **Esse já é o seu link**, com a sua comissão.
+
+<div class="shot"><img src="PRINT:shopee-compartilhar.png"></div>
 
 <div class="box" markdown="1">
-**Dica:** salve o painel do Shopee Afiliados na tela inicial do celular (no navegador, menu → "Adicionar à tela inicial"). Assim ele vira um "aplicativo" e você gera links em segundos.
+**Dica:** nessa mesma tela tem o botão **Baixar todas as imagens**. Use para salvar as fotos do produto e postar no status junto com o link.
 </div>
+
+<p class="nota">Recebeu um link de produto de outro lugar (de uma amiga, por exemplo)? Abra esse link no app da Shopee e faça o mesmo caminho: compartilhar → Copiar Link. Assim o link passa a ser o seu.</p>
 
 #### Quando a Shopee paga
 

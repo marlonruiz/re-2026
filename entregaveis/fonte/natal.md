@@ -30,7 +30,7 @@ Você não precisa mais perder tempo procurando o que indicar. A gente garimpa e
 
 **3. Gere o seu link:**
 
-- **Shopee:** no painel do Shopee Afiliados → **Link personalizado** → cole o link → **Obter link**.
+- **Shopee:** abra o link no app da Shopee → toque em **compartilhar** → **Copiar Link**. Esse já é o seu link.
 - **Mercado Livre:** no painel de afiliados → **Gerador de links** → cole o link.
 - **Amazon:** abra o produto logada e use a **barra do Associados** → **Obter link**.
 
