@@ -73,23 +73,21 @@ Separe 10 minutos para cada loja, com o celular carregado e estes dados em mãos
 
 ### 2.1 · Shopee Afiliados
 
-**Passo 1.** Tenha uma conta normal na Shopee (a mesma que você usa para comprar).
+**Passo 1.** Tenha uma conta normal na Shopee (a mesma que você usa para comprar) e o aplicativo instalado no celular.
 
-**Passo 2.** No navegador do celular, entre em **affiliate.shopee.com.br** e toque em **Inscreva-se agora**.
+**Passo 2.** Abra a inscrição de afiliado. Você pode ir pelo app (toque em **Eu**, no canto de baixo, e procure **Afiliados Shopee**) ou abrir **affiliate.shopee.com.br** no navegador do celular, que ele leva direto para o app.
 
-<div class="print">📱 COLE AQUI O PRINT · página de entrada do Shopee Afiliados</div>
+**Passo 3.** Na tela **Inscrição de Afiliado**, preencha:
 
-**Passo 3.** Faça login com sua conta da Shopee.
+- **Tipo de Conta:** marque **Individual**.
+- **Adicione Sua Rede Social:** toque em **+ Adicionar** em pelo menos uma. Pode ser o Instagram, o Facebook ou o TikTok. Se você não usa nenhuma, adicione a própria **Shopee**.
+- **Número de Telefone:** o seu número com DDD.
 
-**Passo 4.** Preencha seus dados: nome, telefone, endereço e e-mail. Confirme com o código que chega no seu e-mail.
+<div class="shot"><img src="PRINT:shopee-inscricao.png"></div>
 
-<div class="print">📱 COLE AQUI O PRINT · tela de cadastro com os dados</div>
+**Passo 4.** Siga as próximas telas: confirme seu e-mail com o código que chega e preencha os dados fiscais (CPF). Eles precisam bater com o seu cadastro do governo. É por isso que a Shopee desconta os impostos da pessoa física.
 
-**Passo 5.** Em "canais de divulgação", informe seu Instagram ou Facebook. Se usa só o WhatsApp, coloque o perfil que você tiver e descreva que divulga para amigas e grupos.
-
-**Passo 6.** Complete os dados fiscais (CPF). Eles precisam bater com o seu cadastro do governo. É por isso que a Shopee desconta os impostos da pessoa física.
-
-**Passo 7.** Pronto! Quando a conta for liberada, você já pode gerar links.
+**Passo 5.** Pronto! Quando a conta for liberada, você já pode gerar links.
 
 #### Como gerar seu link na Shopee
 

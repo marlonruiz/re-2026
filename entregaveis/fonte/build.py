@@ -1,4 +1,4 @@
-import markdown, sys, pathlib
+import markdown, sys, pathlib, base64, re
 from playwright.sync_api import sync_playwright
 
 CSS = """
@@ -32,6 +32,8 @@ h3, h4 { break-after: avoid; page-break-after: avoid; }
 .msg b { color: #E8572A; }
 .print { border: 2px dashed #E8A07F; border-radius: 10pt; color: #B8653F; background: #FFF8F1; text-align: center; font-weight: 600; font-size: 9pt; padding: 22pt 10pt; margin: 6pt 0 10pt; page-break-inside: avoid; }
 .nota { font-size: 8.4pt; color: #8a7468; }
+.shot { text-align: center; margin: 6pt 0 12pt; page-break-inside: avoid; }
+.shot img { width: 62%; border-radius: 12pt; border: 1px solid #F1D9CC; box-shadow: 0 4pt 14pt rgba(42,30,26,.18); }
 .capa { break-after: page; page-break-after: always; height: 178mm; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
   background: #180E0A; color: #fff; border-radius: 12pt; padding: 20pt; margin: -2mm -2mm 0; }
 .capa .selo { font-weight: 700; letter-spacing: 4pt; font-size: 8.5pt; color: #FFC94D; margin-bottom: 14pt; }
@@ -48,6 +50,8 @@ h3, h4 { break-after: avoid; page-break-after: avoid; }
 def build(src, out, title, mode='modular'):
     md = pathlib.Path(src).read_text(encoding='utf-8')
     body = markdown.markdown(md, extensions=['md_in_html', 'tables'])
+    base = pathlib.Path(src).parent / 'prints'
+    body = re.sub(r'PRINT:([\w.-]+)', lambda m: 'data:image/png;base64,' + base64.b64encode((base / m.group(1)).read_bytes()).decode(), body)
     html = f"<!doctype html><html lang=pt-BR><head><meta charset=utf-8><title>{title}</title><style>{CSS}</style></head><body class={mode}>{body}</body></html>"
     pathlib.Path(out).with_suffix('.html').write_text(html, encoding='utf-8')
     with sync_playwright() as p:
