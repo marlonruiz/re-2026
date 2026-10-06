@@ -41,10 +41,10 @@
     text-align:center;padding:8px 12px;font-size:clamp(14px,4.2vw,17px);font-weight:600;line-height:1.3;box-shadow:0 3px 10px rgba(0,0,0,.18)}
   .faixa strong{color:#FFE14D;font-weight:800}
   .faixa .tempo{font-variant-numeric:tabular-nums;font-weight:700;color:#FFC94D}
-  main{max-width:520px;margin:0 auto;padding:6px 8px 24px}
+  main{max-width:520px;margin:0 auto;padding:6px 16px 24px}
   h1{font-size:clamp(20px,6vw,24px);line-height:1.2;font-weight:800;text-align:center;margin:2px 4px 8px;letter-spacing:-.01em}
   h1 em{font-style:normal;color:var(--brand)}
-  .video{position:relative;width:min(100%, calc((100svh - 205px) * 9 / 16));margin:0 auto;aspect-ratio:9/16;border-radius:14px;overflow:hidden;
+  .video{position:relative;width:min(100%, calc((100svh - 215px) * 9 / 16));margin:0 auto;aspect-ratio:9/16;border-radius:14px;overflow:hidden;
     background:#1b1412;box-shadow:0 10px 30px rgba(42,30,26,.18)}
   .video iframe,.video video{position:absolute;inset:0;width:100%;height:100%;border:0}
   .video video{object-fit:cover;cursor:pointer;z-index:1}
@@ -63,18 +63,22 @@
   .cta{display:flex;justify-content:center;margin-top:10px;visibility:hidden;opacity:0}
   .cta.show{visibility:visible;opacity:1;animation:entra .5s ease-out}
   .cta .in{width:100%;max-width:480px;display:flex;flex-direction:column;gap:6px}
-  .btn{display:block;width:100%;text-align:center;text-decoration:none;
-    background:var(--brand);color:#fff;font-weight:800;font-size:20px;line-height:1.2;
-    padding:16px 18px;border-radius:14px;box-shadow:0 5px 0 var(--brand-dark);
-    animation:pulsa 1.8s ease-in-out infinite}
+  .btn{position:relative;overflow:hidden;display:block;width:100%;text-align:center;text-decoration:none;
+    background:linear-gradient(180deg,#26C25A 0%,#17A247 100%);color:#fff;font-weight:800;font-size:20px;line-height:1.2;
+    padding:16px 18px;border-radius:14px;box-shadow:0 5px 0 #0E7A33, 0 8px 22px rgba(23,162,71,.35);
+    animation:pulsa 1.8s ease-in-out infinite;text-shadow:0 1px 0 rgba(0,0,0,.15)}
+  .btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;
+    background:linear-gradient(105deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);
+    transform:skewX(-20deg);animation:brilho 2.6s ease-in-out infinite;pointer-events:none}
+  @keyframes brilho{0%{left:-60%}55%,100%{left:130%}}
   .btn small{display:block;font-weight:500;font-size:14px;opacity:.95;margin-top:3px}
-  .btn:active{transform:translateY(3px);box-shadow:0 3px 0 var(--brand-dark)}
+  .btn:active{transform:translateY(3px);box-shadow:0 2px 0 #0E7A33}
   .selos{display:flex;gap:10px;justify-content:center;white-space:nowrap;color:var(--muted);font-size:12.5px}
   .selos span::before{content:"✓ ";color:var(--ok);font-weight:700}
   footer{text-align:center;color:#9c8a80;font-size:11px;line-height:1.5;padding:8px 16px 28px;max-width:440px;margin:0 auto}
   @keyframes pulsa{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
   @keyframes entra{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-  @media (prefers-reduced-motion:reduce){.btn,.cta.show{animation:none}}
+  @media (prefers-reduced-motion:reduce){.btn,.btn::after,.cta.show{animation:none}}
 </style>
 </head>
 <body>
