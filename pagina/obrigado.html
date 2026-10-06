@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clube de Achadinhos · Compra confirmada</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- ============ CONFIGURAÇÃO ============ -->
+<script>
+  window.CONFIG = {
+    // Link da área de membros da Cakto (deixe "" para esconder o botão)
+    membrosUrl: "",
+    // WhatsApp ou e-mail de suporte que aparece no rodapé da página
+    suporte: "SEU-EMAIL-OU-WHATSAPP-DE-SUPORTE",
+  };
+</script>
+
+<!-- Pixel da Meta: cole aqui o código base do seu pixel -->
+
+<style>
+  :root{ --bg:#FFF8F1; --ink:#2A1E1A; --muted:#6B5A52; --brand:#E8572A; --ok:#1F8A4C; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font-family:Poppins,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  main{max-width:520px;margin:0 auto;padding:34px 16px 28px;text-align:center}
+  .check{width:74px;height:74px;border-radius:50%;background:#1F8A4C;color:#fff;font-size:40px;display:grid;place-items:center;margin:0 auto 14px;box-shadow:0 8px 24px rgba(31,138,76,.3)}
+  h1{font-size:clamp(24px,7vw,30px);font-weight:800;line-height:1.15}
+  .sub{color:var(--muted);font-size:15.5px;line-height:1.45;margin:10px auto 0;max-width:34ch}
+  .card{background:#fff;border:1px solid #F1D9CC;border-radius:18px;padding:16px;margin:22px 0 16px;text-align:left;box-shadow:0 8px 24px rgba(42,30,26,.08)}
+  .passo{display:flex;gap:12px;padding:10px 0;border-top:1px dashed #F1D9CC;font-size:15px;line-height:1.42}
+  .passo:first-child{border-top:0}
+  .n{flex:none;width:30px;height:30px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;display:grid;place-items:center;font-size:15px}
+  .btn{display:none;width:100%;text-align:center;text-decoration:none;background:linear-gradient(180deg,#26C25A,#17A247);color:#fff;
+    font-weight:800;font-size:18px;padding:15px;border-radius:14px;box-shadow:0 5px 0 #0E7A33}
+  .btn.on{display:block}
+  .sup{color:var(--muted);font-size:13px;margin-top:16px;line-height:1.5}
+</style>
+</head>
+<body>
+<main>
+  <div class="check">✓</div>
+  <h1>Compra confirmada! 💛</h1>
+  <p class="sub">Seja bem-vinda ao Clube de Achadinhos. Seu acesso já foi enviado para o seu e-mail.</p>
+
+  <div class="card">
+    <div class="passo"><div class="n">1</div><div><b>Abra o e-mail da compra.</b> Se não achar, procure nas abas <b>Promoções</b> e <b>Spam</b>.</div></div>
+    <div class="passo"><div class="n">2</div><div><b>Entre na área de membros</b> pelo link do e-mail.</div></div>
+    <div class="passo"><div class="n">3</div><div><b>Comece pela Aula 1</b> e crie sua conta na Shopee. É a mais fácil e leva uns 10 minutos.</div></div>
+  </div>
+
+  <a class="btn" id="membros" href="#">ACESSAR A ÁREA DE MEMBROS</a>
+  <p class="sup">Dúvidas sobre o acesso? Fale com a gente: <span id="suporte"></span></p>
+</main>
+<script>
+  var C = window.CONFIG;
+  if (C.membrosUrl) { var m = document.getElementById('membros'); m.href = C.membrosUrl; m.classList.add('on'); }
+  document.getElementById('suporte').textContent = C.suporte;
+</script>
+</body>
+</html>

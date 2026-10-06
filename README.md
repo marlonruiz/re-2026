@@ -10,7 +10,7 @@ Produto low ticket de renda extra para mulheres 30+, vendido por tráfego pago n
 | `perfil-publico-mulheres-35-renda-extra.md` | Perfil do público |
 | `levantamento-anuncios-meta-out2026.md` | Pesquisa na Biblioteca de Anúncios |
 | `roteiros-vsl-e-anuncios.md` | Oferta, preços, roteiros da VSL e dos anúncios, textos e títulos |
-| `pagina/` | Página de vendas (`index.html`, `vsl.mp4`, `vsl-capa.jpg`). Subir os três arquivos juntos na hospedagem |
+| `pagina/` | Página de vendas (`index.html`, `vsl.mp4`, `vsl-capa.jpg`), upsell (`upsell.html`) e obrigado (`obrigado.html`). Subir todos juntos na hospedagem |
 | `videos/` | VSL final em alta |
 | `anuncios/` | 6 criativos (A, B, C em versão motion e UGC), avatares e vozes |
 | `entregaveis/` | PDFs para a Cakto, capas 300x250 e textos-fonte (`fonte/`) |
@@ -24,6 +24,10 @@ No topo do `pagina/index.html`, no bloco `CONFIG`:
 - `delaySeconds`: segundo da VSL em que o botão aparece (82)
 
 E colar o código do pixel da Meta onde está indicado.
+
+No `pagina/upsell.html`: `upsellUrl` (checkout do produto de R$ 37) ou o código de 1 clique da Cakto dentro de `<div class="cakto">`.
+No `pagina/obrigado.html`: `suporte` e, se quiser, `membrosUrl`.
+Na Cakto (produto principal > Upsell e página de obrigado): `https://clubedeachadinhos.online/upsell.html`.
 
 ## Pendências
 

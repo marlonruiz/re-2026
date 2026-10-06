@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clube de Achadinhos · Oferta especial</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- ============ CONFIGURAÇÃO ============ -->
+<script>
+  window.CONFIG = {
+    // Link do checkout do produto "Achadinhos Prontos até o Natal" (R$ 37).
+    // Se a Cakto te der um botão/script de compra com 1 clique, cole ele no lugar indicado mais abaixo
+    // e este link vira só a reserva.
+    upsellUrl: "https://pay.cakto.com.br/SEU-LINK-DO-UPSELL",
+    // Para onde vai quem clicar em "Não, obrigada"
+    declineUrl: "obrigado.html",
+  };
+</script>
+
+<!-- Pixel da Meta: cole aqui o código base do seu pixel -->
+
+<style>
+  :root{ --bg:#FFF8F1; --ink:#2A1E1A; --muted:#6B5A52; --brand:#E8572A; --ok:#1F8A4C; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink);font-family:Poppins,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .ok{background:#1F8A4C;color:#fff;text-align:center;padding:9px 12px;font-size:clamp(12.5px,3.6vw,15px);font-weight:600;line-height:1.35}
+  main{max-width:520px;margin:0 auto;padding:18px 16px 28px}
+  .espera{display:inline-block;background:#D7261E;color:#fff;font-weight:800;font-size:13px;letter-spacing:2px;padding:5px 12px;border-radius:999px;margin-bottom:10px}
+  .topo{text-align:center}
+  h1{font-size:clamp(23px,6.6vw,28px);line-height:1.18;font-weight:800;letter-spacing:-.01em}
+  h1 em{font-style:normal;color:var(--brand)}
+  .sub{margin:10px auto 0;color:var(--muted);font-size:15.5px;line-height:1.45;max-width:36ch}
+  .card{background:#fff;border:1px solid #F1D9CC;border-radius:18px;padding:18px 16px;margin:18px 0 14px;box-shadow:0 8px 24px rgba(42,30,26,.08)}
+  .card h2{font-size:17px;font-weight:800;margin-bottom:10px}
+  .item{display:flex;gap:12px;align-items:flex-start;padding:9px 0;border-top:1px dashed #F1D9CC;font-size:15px;line-height:1.4}
+  .item:first-of-type{border-top:0}
+  .item b{font-weight:700}
+  .ic{flex:none;width:34px;height:34px;border-radius:50%;background:#FFF1E6;display:grid;place-items:center;font-size:18px}
+  .exemplo{background:#E9F7EE;border-radius:14px 14px 14px 4px;padding:10px 12px;font-size:14px;line-height:1.4;margin-top:12px;color:#20372A}
+  .exemplo small{display:block;color:#5c7a66;font-size:12px;margin-bottom:4px;font-weight:600}
+  .preco{text-align:center;margin:6px 0 12px}
+  .preco .de{color:var(--muted);font-size:14px}
+  .preco .por{font-size:34px;font-weight:800;color:var(--ink);line-height:1.1}
+  .preco .obs{font-size:13.5px;color:var(--ok);font-weight:600}
+  .btn{position:relative;overflow:hidden;display:block;width:100%;text-align:center;text-decoration:none;
+    background:linear-gradient(180deg,#26C25A 0%,#17A247 100%);color:#fff;font-weight:800;font-size:19px;line-height:1.2;
+    padding:16px 18px;border-radius:14px;box-shadow:0 5px 0 #0E7A33,0 8px 22px rgba(23,162,71,.35);
+    animation:pulsa 1.8s ease-in-out infinite;text-shadow:0 1px 0 rgba(0,0,0,.15);border:0;cursor:pointer}
+  .btn small{display:block;font-weight:500;font-size:13.5px;opacity:.95;margin-top:3px}
+  .btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;
+    background:linear-gradient(105deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.55) 50%,rgba(255,255,255,0) 100%);
+    transform:skewX(-20deg);animation:brilho 2.6s ease-in-out infinite;pointer-events:none}
+  .btn:active{transform:translateY(3px);box-shadow:0 2px 0 #0E7A33}
+  .cakto{margin-top:4px}
+  .nao{display:block;text-align:center;margin:16px auto 0;color:var(--muted);font-size:14px;text-decoration:underline}
+  .selos{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;color:var(--muted);font-size:12.5px;margin-top:10px}
+  .selos span::before{content:"✓ ";color:var(--ok);font-weight:700}
+  footer{text-align:center;color:#9c8a80;font-size:11px;line-height:1.5;padding:4px 16px 26px;max-width:440px;margin:0 auto}
+  @keyframes pulsa{0%,100%{transform:scale(1)}50%{transform:scale(1.02)}}
+  @keyframes brilho{0%{left:-60%}55%,100%{left:130%}}
+  @media (prefers-reduced-motion:reduce){.btn,.btn::after{animation:none}}
+</style>
+</head>
+<body>
+
+<div class="ok">✅ Pagamento aprovado! Seu acesso ao Clube já foi enviado para o seu e-mail.</div>
+
+<main>
+  <div class="topo">
+    <div class="espera">ESPERA!</div>
+    <h1>Quer receber os achadinhos <em>já escolhidos</em> até o Natal?</h1>
+    <p class="sub">Sem perder tempo procurando o que indicar. A gente garimpa, você só gera o seu link e posta.</p>
+  </div>
+
+  <div class="card">
+    <h2>O que você recebe</h2>
+    <div class="item"><div class="ic">📦</div><div><b>5 achadinhos toda terça e sexta</b>, num canal só para quem entrou.</div></div>
+    <div class="item"><div class="ic">📝</div><div><b>Foto e texto prontos</b> em cada um. É só copiar, trocar pelo seu link e mandar.</div></div>
+    <div class="item"><div class="ic">🎄</div><div><b>Seleção para cada fase:</b> dia a dia em outubro, Black Friday em novembro e presentes de Natal em dezembro.</div></div>
+    <div class="item"><div class="ic">🗓️</div><div><b>Vale até 25 de dezembro.</b> Pagamento único, sem mensalidade.</div></div>
+
+    <div class="exemplo"><small>Exemplo de como chega no canal</small>✨ Kit 5 utensílios de silicone para cozinha<br>Lindos, fáceis de lavar e não riscam a panela.<br>⭐ Nota 4,9 com mais de 40 mil vendidos<br>👉 [troque pelo seu link]</div>
+  </div>
+
+  <div class="preco">
+    <div class="por">R$ 37</div>
+    <div class="obs">pagamento único · só nesta página</div>
+  </div>
+
+  <!-- ===== BOTÃO DE COMPRA ===== -->
+  <!-- Se a Cakto te der um código de compra com 1 clique para o upsell, cole ele aqui dentro
+       e apague o <a class="btn"> abaixo. -->
+  <div class="cakto" id="cakto">
+    <a class="btn" id="btn" href="#">
+      SIM, QUERO OS ACHADINHOS PRONTOS
+      <small>Adicionar ao meu pedido por R$ 37</small>
+    </a>
+  </div>
+  <div class="selos"><span>Acesso imediato</span><span>Garantia de 7 dias</span></div>
+
+  <a class="nao" id="nao" href="#">Não, obrigada. Prefiro procurar os achadinhos sozinha.</a>
+</main>
+
+<footer>
+  Os ganhos dependem das compras feitas a partir das suas indicações. Não há garantia de valor.<br>
+  Este site não é afiliado à Shopee, Mercado Livre ou Amazon.
+</footer>
+
+<script>
+(function(){
+  var C = window.CONFIG, q = location.search;
+  var b = document.getElementById('btn');
+  if (b) { try { var u = new URL(C.upsellUrl); new URLSearchParams(q).forEach(function(v,k){ if(!u.searchParams.has(k)) u.searchParams.set(k,v); }); b.href = u.toString(); } catch(e){ b.href = C.upsellUrl; } }
+  document.getElementById('nao').href = C.declineUrl + q;
+})();
+</script>
+</body>
+</html>
