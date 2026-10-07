@@ -23,7 +23,7 @@ No topo do `pagina/index.html`, no bloco `CONFIG`:
 - `checkoutUrl`: link do checkout da Cakto
 - `delaySeconds`: segundo da VSL em que o botão aparece (82)
 
-E colar o código do pixel da Meta onde está indicado.
+Pixel da Meta (958600866742289) já instalado nas 3 páginas. A compra (Purchase) é disparada pela Cakto: cadastrar o mesmo pixel na integração da Cakto.
 
 No `pagina/upsell.html`: `upsellUrl` (checkout do produto de R$ 37) ou o código de 1 clique da Cakto dentro de `<div class="cakto">`.
 No `pagina/obrigado.html`: `suporte` e, se quiser, `membrosUrl`.
