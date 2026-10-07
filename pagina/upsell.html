@@ -45,6 +45,23 @@
   .ic{flex:none;width:34px;height:34px;border-radius:50%;background:#FFF1E6;display:grid;place-items:center;font-size:18px}
   .exemplo{background:#E9F7EE;border-radius:14px 14px 14px 4px;padding:10px 12px;font-size:14px;line-height:1.4;margin-top:12px;color:#20372A}
   .exemplo small{display:block;color:#5c7a66;font-size:12px;margin-bottom:4px;font-weight:600}
+  .secao{font-size:18px;font-weight:800;text-align:center;margin:30px 0 12px}
+  .zap{border-radius:20px;overflow:hidden;box-shadow:0 10px 28px rgba(42,30,26,.14);border:1px solid #E6DDD3;max-width:400px;margin:0 auto}
+  .zap-top{background:#075E54;color:#fff;display:flex;align-items:center;gap:10px;padding:10px 14px}
+  .zap-top .av{width:36px;height:36px;border-radius:50%;background:#FFC94D;display:grid;place-items:center;font-size:19px}
+  .zap-top b{display:block;font-size:15px}.zap-top small{font-size:12px;opacity:.8}
+  .zap-body{background:#ECE5DD;padding:14px 12px 12px}
+  .bolha{background:#fff;border-radius:4px 14px 14px 14px;padding:6px 6px 8px;max-width:88%;box-shadow:0 1px 1px rgba(0,0,0,.12);position:relative}
+  .foto{height:130px;border-radius:10px;background:linear-gradient(135deg,#FFE9DC,#FFD3BC);display:grid;place-items:center;font-size:54px;position:relative}
+  .foto span{position:absolute;bottom:6px;right:8px;font-size:10.5px;color:#B8653F;font-weight:600}
+  .txt{font-size:14px;line-height:1.42;padding:8px 6px 0;color:#1f1f1f}
+  .lk{color:#027EB5}
+  .hora{text-align:right;font-size:11px;color:#8b8b8b;padding:0 4px}
+  .dica{margin:10px auto 0;width:max-content;max-width:100%;background:#FFF5C4;color:#5b4a00;font-size:12.5px;font-weight:600;padding:5px 12px;border-radius:8px}
+  .fases{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px auto 0;max-width:400px}
+  .fases div{background:#fff;border:1px solid #F1D9CC;border-radius:14px;text-align:center;padding:10px 4px}
+  .fases span{display:block;font-size:22px}.fases b{display:block;font-size:13.5px;margin-top:2px}.fases small{font-size:12px;color:var(--muted)}
+  .unico{text-align:center;color:var(--muted);font-size:13.5px;margin:12px 0 4px}
   .preco{text-align:center;margin:0 0 8px;display:flex;align-items:baseline;justify-content:center;gap:10px;flex-wrap:wrap}
   .preco .de{color:var(--muted);font-size:14px}
   .preco .por{font-size:28px;font-weight:800;color:var(--ink);line-height:1.1}
@@ -70,7 +87,7 @@
 </head>
 <body>
 
-<div class="ok">✅ Pagamento aprovado! Acesso enviado no seu e-mail.</div>
+<div class="ok">✅ Pagamento aprovado! Acesso no seu e-mail.</div>
 
 <main>
   <div class="topo">
@@ -100,12 +117,26 @@
   </div>
   <a class="nao" id="nao" href="#">Não, obrigada. Prefiro procurar sozinha.</a>
 
-  <div class="card">
-    <h2>Como chega no canal</h2>
-    <div class="exemplo" style="margin-top:0">✨ Kit 5 utensílios de silicone para cozinha<br>Lindos, fáceis de lavar e não riscam a panela.<br>⭐ Nota 4,9 com mais de 40 mil vendidos<br>👉 [troque pelo seu link]</div>
-    <div class="item" style="margin-top:10px"><div class="ic">🎄</div><div><b>Seleção para cada fase:</b> dia a dia em outubro, Black Friday em novembro e presentes de Natal em dezembro.</div></div>
-    <div class="item"><div class="ic">🗓️</div><div><b>Pagamento único</b>, sem mensalidade. Vale até 25 de dezembro.</div></div>
+  <h2 class="secao">Veja como chega para você</h2>
+  <div class="zap">
+    <div class="zap-top"><div class="av">🛍️</div><div><b>Achadinhos Prontos</b><small>Canal · só para quem entrou</small></div></div>
+    <div class="zap-body">
+      <div class="bolha">
+        <div class="foto">🍳<span>foto do produto</span></div>
+        <div class="txt">✨ <b>Kit 5 utensílios de silicone</b><br>Lindos, fáceis de lavar e não riscam a panela.<br>⭐ Nota 4,9 · mais de 40 mil vendidos<br>👉 <span class="lk">[troque pelo seu link]</span></div>
+        <div class="hora">10:02</div>
+      </div>
+      <div class="dica">É só copiar, colar o seu link e mandar 💛</div>
+    </div>
   </div>
+
+  <div class="fases">
+    <div><span>🍂</span><b>Outubro</b><small>dia a dia</small></div>
+    <div><span>🖤</span><b>Novembro</b><small>Black Friday</small></div>
+    <div><span>🎄</span><b>Dezembro</b><small>presentes</small></div>
+  </div>
+  <p class="unico">Pagamento único, sem mensalidade. Vale até 25 de dezembro.</p>
+
   <div class="selos"><span>Acesso imediato</span><span>Garantia de 7 dias</span></div>
 </main>
 
